@@ -4,6 +4,10 @@ This app generates a GPX file with coordinates sorted in an optimal path, based 
 
 The app comes with an example file (coords.txt) which will output an optimal path GPX file for Central Park, New York.
 
+# Requirments
+
+You need to have [NodeJS](https://nodejs.org/en/) installed
+
 # How to use
 
 Install necesary dependencies
