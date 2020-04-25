@@ -1,0 +1,22 @@
+{
+  "name": "gpx-route-generator",
+  "version": "1.0.0",
+  "description": "GPX Route Generator",
+  "main": "generate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/3nvy/gpx-route-generator.git"
+  },
+  "author": "3nvy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/3nvy/gpx-route-generator/issues"
+  },
+  "homepage": "https://gitlab.com/3nvy/gpx-route-generator#readme",
+  "dependencies": {
+    "sphere-knn": "^1.4.0"
+  }
+}
