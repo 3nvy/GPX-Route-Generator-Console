@@ -19,7 +19,7 @@ node generator in=coords.txt out=central_park
 Argument | Description
 ------------ | -------------
 in | name & extension of file to read the coordinates from
-out | desired name for te exported GPX file
+out | desired name for the exported GPX file
 
 * All arguments are optional
 
