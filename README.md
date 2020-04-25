@@ -2,7 +2,7 @@
 
 This app generates a GPX file with coordinates sorted in an optimal path, based on the nearest-neighbor algorithm. By providing a file with multiple coordinates to the app, it outputs a GPX file with a optimal path with the first coordinate as a starting point.
 
-The app comes with an example file (coords.txt) which will output an optimal path GTX file for Central Park, New York.
+The app comes with an example file (coords.txt) which will output an optimal path GPX file for Central Park, New York.
 
 # How to use
 
