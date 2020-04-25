@@ -16,10 +16,10 @@ Run app
 node generator in=coords.txt out=central_park
 </pre>
 
-Argument | Description
+Argument | Description | Default value (f not provided)
 ------------ | -------------
-in | name & extension of file to read the coordinates from
-out | desired name for the exported GPX file
+in | name & extension of file to read the coordinates from | coords.txt
+out | desired name for the exported GPX file | default_route
 
 * All arguments are optional
 
