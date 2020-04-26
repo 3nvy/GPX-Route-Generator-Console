@@ -31,7 +31,7 @@ ${sortedArray
 try {
   const contents = fs.readFileSync(`${args["in"] || "coords.txt"}`, "utf8");
 
-  const posArray = contents.split("\r\n").map((coords) => {
+  const posArray = contents.split("\n").map((coords) => {
     const [lat, lon] = coords.split(",");
     return [lat, lon];
   });
