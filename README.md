@@ -17,7 +17,7 @@ npm i
 
 Run app
 <pre>
-node generator in=coords.txt out=central_park
+node generate in=coords.txt out=central_park
 </pre>
 
 Argument | Description | Default value (f not provided)
