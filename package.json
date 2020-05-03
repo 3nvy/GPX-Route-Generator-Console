@@ -17,6 +17,6 @@
   },
   "homepage": "https://gitlab.com/3nvy/gpx-route-generator#readme",
   "dependencies": {
-    "sphere-knn": "^1.4.0"
+    "gpx-route-generator-core": "git+https://git@gitlab.com/3nvy/gpx-route-generator-core.git"
   }
 }
