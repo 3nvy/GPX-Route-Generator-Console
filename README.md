@@ -17,13 +17,15 @@ npm i
 
 Run app
 <pre>
-node generate in=coords.txt out=central_park
+node generate in=coords.txt out=central_park type=2OPT count=5
 </pre>
 
-Argument | Description | Default value (f not provided)
+Argument | Description | Default value (if not provided)
 ------------ | ------------- | -------------
 in | name & extension of file to read the coordinates from | coords.txt
 out | desired name for the exported GPX file | default_route
+type | Sorting algorithm (none, 2OPT, KN) | 
+count | Number of interactions (only if using 2OPT) | 1
 
 * All arguments are optional
 
