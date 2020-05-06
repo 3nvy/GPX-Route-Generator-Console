@@ -18,7 +18,7 @@ const saveToFile = (data) => {
 
 try {
   const contents = fs.readFileSync(`${args["in"] || "coords.txt"}`, "utf8");
-  const data = GetGPXFile(contents);
+  const data = GetGPXFile(contents, args["type"], args["count"]);
   saveToFile(data);
 } catch (err) {
   console.error(`File '${args["in"] || "coords.txt"}' doesnt exists or content is in wrong format!`);
